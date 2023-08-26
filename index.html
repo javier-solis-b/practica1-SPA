@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+
+    <header class="header">
+        <h1>Práctica 1 - Calculadora Básica</h1>
+    </header>
+    <br>
+    <div class="container">
+       
+        <div class="input-container">
+            <label for="num1">Número 1:</label>
+            <br>
+            <input type="number" id="num1">
+        </div>
+        <div class="input-container">
+            <label for="num2">Número 2:</label>
+            <br>
+            <input type="number" id="num2">
+        </div>
+        <div class="input-container">
+            <label for="operacion">Operación:</label>
+            <select id="operacion">
+                <option value="add">Sumar</option>
+                <option value="subtract">Restar</option>
+                <option value="multiply">Multiplicar</option>
+                <option value="divide">Dividir</option>
+            </select>
+            <button id="ejecutar">Ejecutar</button>
+        </div>
+        <br>
+        <div class="result-container">
+            <label for="resultado">Resultado:</label>
+            <br>
+            <input type="text" id="result" readonly>
+        </div>
+    </div>
+
+    <footer>
+        <p>Francisco Javier Solis Bamaca</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
